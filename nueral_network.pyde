@@ -13,9 +13,11 @@ from new_net import New_net as nn
 def setup():
     size(900, 700)
     background("#DBFFFF")
+    # These 3 counts dictate the amount of nodes per respective column.
     input_count = 3
     hidden_count = 4
     output_count = 2
+    # Setting the coordinates for each node in their respective column.  
     x_input = float(width/5)
     y_input = []
     for i in range(input_count):
